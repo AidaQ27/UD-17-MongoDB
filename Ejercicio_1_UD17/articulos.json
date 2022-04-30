@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b0"
+  },
+  "nombre": "Hard drive",
+  "precio": 206,
+  "codigoFabricante": 5
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b1"
+  },
+  "nombre": "Memory",
+  "precio": 108,
+  "codigoFabricante": 6
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b2"
+  },
+  "nombre": "ZIP drive",
+  "precio": 125,
+  "codigoFabricante": 4
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b3"
+  },
+  "nombre": "Floppy disk",
+  "precio": 5,
+  "codigoFabricante": 6
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b4"
+  },
+  "nombre": "Monitor",
+  "precio": 206,
+  "codigoFabricante": 1
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b5"
+  },
+  "nombre": "DVD drive",
+  "precio": 152,
+  "codigoFabricante": 2
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b6"
+  },
+  "nombre": "CD drive",
+  "precio": 81,
+  "codigoFabricante": 2
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b7"
+  },
+  "nombre": "Impresora laser",
+  "precio": 233,
+  "codigoFabricante": 3
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b8"
+  },
+  "nombre": "Toner cartridge",
+  "precio": 59,
+  "codigoFabricante": 3
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75b9"
+  },
+  "nombre": "DVD burner",
+  "precio": 152,
+  "codigoFabricante": 2
+},{
+  "_id": {
+    "$oid": "626d84a8cf8759df078a75ba"
+  },
+  "nombre": "Altavoces",
+  "precio": 63,
+  "codigoFabricante": 2
+}]

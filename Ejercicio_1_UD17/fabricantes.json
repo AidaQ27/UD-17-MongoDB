@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626d8224cf8759df078a75aa"
+  },
+  "name": "Sony"
+},{
+  "_id": {
+    "$oid": "626d8224cf8759df078a75ab"
+  },
+  "name": "Creative Labs"
+},{
+  "_id": {
+    "$oid": "626d8224cf8759df078a75ac"
+  },
+  "name": "Hewlett-Packard"
+},{
+  "_id": {
+    "$oid": "626d8224cf8759df078a75ad"
+  },
+  "name": "Iomega"
+},{
+  "_id": {
+    "$oid": "626d8224cf8759df078a75ae"
+  },
+  "name": "Fujitsu"
+},{
+  "_id": {
+    "$oid": "626d8224cf8759df078a75af"
+  },
+  "name": "Winchester"
+}]
