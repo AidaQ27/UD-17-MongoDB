@@ -1,0 +1,21 @@
+[{
+  "_id": 1,
+  "nombre": "Markenting",
+  "presupuesto": 20000
+},{
+  "_id": 2,
+  "nombre": "RRHH",
+  "presupuesto": 25000
+},{
+  "_id": 3,
+  "nombre": "Logistica",
+  "presupuesto": 40000
+},{
+  "_id": 4,
+  "nombre": "Administracion",
+  "presupuesto": 30000
+},{
+  "_id": 5,
+  "nombre": "Seguridad",
+  "presupuesto": 27000
+}]
