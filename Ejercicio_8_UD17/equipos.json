@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626eaa289c40eee3c388f434"
+  },
+  "numSerie": "A",
+  "nombre": "Medicos",
+  "facultad": 1
+},{
+  "_id": {
+    "$oid": "626eaa289c40eee3c388f435"
+  },
+  "numSerie": "B",
+  "nombre": "Economistas",
+  "facultad": 2
+},{
+  "_id": {
+    "$oid": "626eaa289c40eee3c388f436"
+  },
+  "numSerie": "C",
+  "nombre": "Abogados",
+  "facultad": 3
+},{
+  "_id": {
+    "$oid": "626eaa289c40eee3c388f437"
+  },
+  "numSerie": "D",
+  "nombre": "Cientificos",
+  "facultad": 4
+},{
+  "_id": {
+    "$oid": "626eaa289c40eee3c388f438"
+  },
+  "numSerie": "E",
+  "nombre": "Artistas",
+  "facultad": 5
+}]

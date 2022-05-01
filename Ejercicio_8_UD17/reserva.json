@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "626eac2a9c40eee3c388f439"
+  },
+  "DNI": "39947367P",
+  "numSerie": "A",
+  "comienzo": "2021-09-12",
+  "fin": "2022-05-20"
+},{
+  "_id": {
+    "$oid": "626eac2a9c40eee3c388f43a"
+  },
+  "DNI": "39862634K",
+  "numSerie": "B",
+  "comienzo": "2021-09-10",
+  "fin": "2022-05-22"
+},{
+  "_id": {
+    "$oid": "626eac2a9c40eee3c388f43b"
+  },
+  "DNI": "39886724J",
+  "numSerie": "C",
+  "comienzo": "2021-09-07",
+  "fin": "2022-05-15"
+},{
+  "_id": {
+    "$oid": "626eac2a9c40eee3c388f43c"
+  },
+  "DNI": "39546238L",
+  "numSerie": "D",
+  "comienzo": "2021-09-01",
+  "fin": "2022-06-20"
+},{
+  "_id": {
+    "$oid": "626eac2a9c40eee3c388f43d"
+  },
+  "DNI": "39654327V",
+  "numSerie": "E",
+  "comienzo": "2021-10-02",
+  "fin": "2022-04-22"
+}]

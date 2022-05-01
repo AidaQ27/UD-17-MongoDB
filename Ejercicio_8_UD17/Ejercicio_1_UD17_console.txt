@@ -1,0 +1,66 @@
+db
+test
+use investigadores
+'switched to db investigadores'
+db.investigadores
+investigadores.investigadores
+
+db.investigadores.insertMany([
+  {DNI:"39947367P", nombre:"Maria Kimeno", facultad: 1},
+  {DNI:"39862634K", nombre:"Juanjo Garcia", facultad: 2},
+  {DNI:"39886724J", nombre:"Laia Montero", facultad: 3},
+  {DNI:"39546238L", nombre:"Manolo Lama", facultad: 4},
+  {DNI:"35837362V", nombre:"Mariano Sanchez", facultad: 4},
+  ]);
+{ acknowledged: true,
+  insertedIds: 
+   { '0': ObjectId("626ea7339c40eee3c388f425"),
+     '1': ObjectId("626ea7339c40eee3c388f426"),
+     '2': ObjectId("626ea7339c40eee3c388f427"),
+     '3': ObjectId("626ea7339c40eee3c388f428"),
+     '4': ObjectId("626ea7339c40eee3c388f429") } }
+     
+db.facultad.insertMany([
+  {codigo:1, nombre:"Facultad Medicina"},
+  {codigo:2, nombre:"Facultad Economia"},
+  {codigo:3, nombre:"Facultad Derecho"},
+  {codigo:4, nombre:"Facultad Ciencias"},
+  {codigo:5, nombre:"Facultad Arquitectura"},
+  ]);
+{ acknowledged: true,
+  insertedIds: 
+   { '0': ObjectId("626ea8659c40eee3c388f42f"),
+     '1': ObjectId("626ea8659c40eee3c388f430"),
+     '2': ObjectId("626ea8659c40eee3c388f431"),
+     '3': ObjectId("626ea8659c40eee3c388f432"),
+     '4': ObjectId("626ea8659c40eee3c388f433") } }
+     
+db.equipos.insertMany([
+  {numSerie:"A", nombre:"Medicos", facultad:1},
+  {numSerie:"B", nombre:"Economistas", facultad:2},
+  {numSerie:"C", nombre:"Abogados", facultad:3},
+  {numSerie:"D", nombre:"Cientificos", facultad:4},
+  {numSerie:"E", nombre:"Artistas", facultad:5},
+  ]);
+{ acknowledged: true,
+  insertedIds: 
+   { '0': ObjectId("626eaa289c40eee3c388f434"),
+     '1': ObjectId("626eaa289c40eee3c388f435"),
+     '2': ObjectId("626eaa289c40eee3c388f436"),
+     '3': ObjectId("626eaa289c40eee3c388f437"),
+     '4': ObjectId("626eaa289c40eee3c388f438") } }
+
+db.reserva.insertMany([
+  {DNI:"39947367P", numSerie:"A", comienzo:"2021-09-12", fin:"2022-05-20"},
+  {DNI:"39862634K", numSerie:"B", comienzo:"2021-09-10", fin:"2022-05-22"},
+  {DNI:"39886724J", numSerie:"C", comienzo:"2021-09-07", fin:"2022-05-15"},
+  {DNI:"39546238L", numSerie:"D", comienzo:"2021-09-01", fin:"2022-06-20"},
+  {DNI:"39654327V", numSerie:"E", comienzo:"2021-10-02", fin:"2022-04-22"},
+  ]);
+{ acknowledged: true,
+  insertedIds: 
+   { '0': ObjectId("626eac2a9c40eee3c388f439"),
+     '1': ObjectId("626eac2a9c40eee3c388f43a"),
+     '2': ObjectId("626eac2a9c40eee3c388f43b"),
+     '3': ObjectId("626eac2a9c40eee3c388f43c"),
+     '4': ObjectId("626eac2a9c40eee3c388f43d") } }

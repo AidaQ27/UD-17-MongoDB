@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "626ea7339c40eee3c388f425"
+  },
+  "DNI": "39947367P",
+  "nombre": "Maria Kimeno",
+  "facultad": 1
+},{
+  "_id": {
+    "$oid": "626ea7339c40eee3c388f426"
+  },
+  "DNI": "39862634K",
+  "nombre": "Juanjo Garcia",
+  "facultad": 2
+},{
+  "_id": {
+    "$oid": "626ea7339c40eee3c388f427"
+  },
+  "DNI": "39886724J",
+  "nombre": "Laia Montero",
+  "facultad": 3
+},{
+  "_id": {
+    "$oid": "626ea7339c40eee3c388f428"
+  },
+  "DNI": "39546238L",
+  "nombre": "Manolo Lama",
+  "facultad": 4
+},{
+  "_id": {
+    "$oid": "626ea7339c40eee3c388f429"
+  },
+  "DNI": "35837362V",
+  "nombre": "Mariano Sanchez",
+  "facultad": 4
+}]

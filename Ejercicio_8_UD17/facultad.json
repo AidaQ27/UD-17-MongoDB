@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "626ea8659c40eee3c388f42f"
+  },
+  "codigo": 1,
+  "nombre": "Facultad Medicina"
+},{
+  "_id": {
+    "$oid": "626ea8659c40eee3c388f430"
+  },
+  "codigo": 2,
+  "nombre": "Facultad Economia"
+},{
+  "_id": {
+    "$oid": "626ea8659c40eee3c388f431"
+  },
+  "codigo": 3,
+  "nombre": "Facultad Derecho"
+},{
+  "_id": {
+    "$oid": "626ea8659c40eee3c388f432"
+  },
+  "codigo": 4,
+  "nombre": "Facultad Ciencias"
+},{
+  "_id": {
+    "$oid": "626ea8659c40eee3c388f433"
+  },
+  "codigo": 5,
+  "nombre": "Facultad Arquitectura"
+}]
