@@ -1,0 +1,67 @@
+use admin
+'switched to db admin'
+use Cajeros
+'switched to db Cajeros'
+db.cajeros.insertOne({})
+{ acknowledged: true,
+  insertedId: ObjectId("626fbd48b56f3f901723023b") }
+db.cajeros.insertOne({"nombreApell": "Maria Peña"})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc211b56f3f901723023c") }
+db.cajeros.insertOne({"nombreApell": "Marta Pombo"})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc21cb56f3f901723023d") }
+db.cajeros.insertOne({"nombreApell": "Patricia Plato"})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc234b56f3f901723023e") }
+db.cajeros.insertOne({"nombreApell": "Samuel Roco"})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc240b56f3f901723023f") }
+db.cajeros.insertOne({"nombreApell": "Sara Sabina"})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc24cb56f3f9017230240") }
+db.Cajeros.insertOne({"nombreApell": "Sara Sabina"})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc280b56f3f9017230241") }
+db.productos.insertOne({"nombre": "manzana", "precio": 2.40})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc3d9b56f3f9017230242") }
+db.productos.insertOne({"nombre": "pera", "precio": 2.60})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc3eab56f3f9017230243") }
+db.productos.insertOne({"nombre": "platano", "precio": 3.60})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc3f6b56f3f9017230244") }
+db.productos.insertOne({"nombre": "cerezas", "precio": 2.90})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc404b56f3f9017230245") }
+db.productos.insertOne({"nombre": "fresa", "precio": 3.50})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc41fb56f3f9017230246") }
+db.maquina_reg.insertOne({"piso": 1})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc55ab56f3f9017230247") }
+db.maquina_reg.insertOne({"piso": 2})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc55fb56f3f9017230248") }
+db.maquina_reg.insertOne({"piso": 3})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc564b56f3f9017230249") }
+db.usera.find()
+db.cajeros.find()
+{ _id: ObjectId("626fc211b56f3f901723023c"),
+  nombreApell: 'Maria Peña' }
+{ _id: ObjectId("626fc21cb56f3f901723023d"),
+  nombreApell: 'Marta Pombo' }
+{ _id: ObjectId("626fc234b56f3f901723023e"),
+  nombreApell: 'Patricia Plato' }
+{ _id: ObjectId("626fc240b56f3f901723023f"),
+  nombreApell: 'Samuel Roco' }
+{ _id: ObjectId("626fc24cb56f3f9017230240"),
+  nombreApell: 'Sara Sabina' }                                                                                ^
+db.venta.insertOne({"cajero": ObjectId('626fc3d9b56f3f9017230242'), "maquina_reg": ObjectId('626fc55ab56f3f9017230247'), "producto": ObjectId('626fc41fb56f3f9017230246')})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc808b56f3f901723024a") }
+db.venta.insertOne({"cajero": ObjectId('626fc24cb56f3f9017230240'), "maquina_reg": ObjectId('626fc564b56f3f9017230249'), "producto": ObjectId('626fc404b56f3f9017230245')})
+{ acknowledged: true,
+  insertedId: ObjectId("626fc87fb56f3f901723024b") }

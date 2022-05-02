@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "626fc211b56f3f901723023c"
+  },
+  "nombreApell": "Maria Peña"
+},{
+  "_id": {
+    "$oid": "626fc21cb56f3f901723023d"
+  },
+  "nombreApell": "Marta Pombo"
+},{
+  "_id": {
+    "$oid": "626fc234b56f3f901723023e"
+  },
+  "nombreApell": "Patricia Plato"
+},{
+  "_id": {
+    "$oid": "626fc240b56f3f901723023f"
+  },
+  "nombreApell": "Samuel Roco"
+},{
+  "_id": {
+    "$oid": "626fc24cb56f3f9017230240"
+  },
+  "nombreApell": "Sara Sabina"
+}]
