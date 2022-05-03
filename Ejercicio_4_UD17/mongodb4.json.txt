@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "12er34ty56io78pñ90as"
+  },
+  "codigo": 1,
+  "nombre": "ANIMALES FANTÁSTICOS: LOS SECRETOS DE DUMBLEDORE",
+  "calificacionEdad": 12
+},{
+  "_id": {
+    "$oid": "09po87iu65yt43re21wq"
+  },
+  "codigo": 2,
+  "nombre": "EL HOMBRE DEL NORTE",
+  "calificacionEdad": 16
+},{
+  "_id": {
+    "$oid": "14as225df36gh78jk98lñ"
+  },df
+  "codigo": 3,
+  "nombre": "EL SECRETO DE VICKY",
+  "calificacionEdad": 3
+},{
+  "_id": {
+    "$oid": "96zx85cv74bn21mñ23lkj"
+  },
+  "codigo": 4,
+  "nombre": "SONIC 2: LA PELÍCULA",
+  "calificacionEdad": 7
+},{
+  "_id": {
+    "$oid": "91aq73ws82ed54rf65tg"
+  },
+  "codigo": 5,
+  "nombre": "X (TI WEST)",
+  "calificacionEdad": 18
+}]
