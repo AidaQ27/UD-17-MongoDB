@@ -1,0 +1,27 @@
+[
+  {
+    _id: { '$oid': '91aq73ws82ed54rf65tg' },
+    dni: '000000A',
+    nombreApellidos: 'Gerard Sanchez'
+  },
+  {
+    _id: { '$oid': '96zx85cv74bn21mñ23lkj' },
+    dni: '000000B',
+    nombreApellidos: 'Aida Queralt'
+  },
+  {
+    _id: { '$oid': '14as225df36gh78jk98lñ' },
+    dni: '000000C',
+    nombreApellidos: 'Gerard Viñuela'
+  },
+  {
+    _id: { '$oid': '09po87iu65yt43re21wq' },
+    dni: '000000D',
+    nombreApellidos: 'Constantin Vlad'
+  },
+  {
+    _id: { '$oid': '12er34ty56io78pñ90as' },
+    dni: '000000F',
+    nombreApellidos: 'Antonio Garcia'
+  }
+]
