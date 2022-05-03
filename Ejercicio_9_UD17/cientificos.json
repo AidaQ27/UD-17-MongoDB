@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "626fba473113a15fd44dba90"
+  },
+  "DNI": "39848274B",
+  "Nombre y Apellidos": "Jesus Jimenez"
+},{
+  "_id": {
+    "$oid": "626fba663113a15fd44dba91"
+  },
+  "DNI": "39766390V",
+  "Nombre y Apellidos": "Pedro Rodriguez"
+},{
+  "_id": {
+    "$oid": "626fba863113a15fd44dba92"
+  },
+  "DNI": "39123442J",
+  "Nombre y Apellidos": "Alicia Garcia"
+},{
+  "_id": {
+    "$oid": "626fbab93113a15fd44dba93"
+  },
+  "DNI": "39773651F",
+  "Nombre y Apellidos": "Maria Trigueros"
+}]

@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "626fbb383113a15fd44dba94"
+  },
+  "Nombre": "Marketing",
+  "Horas": 120
+},{
+  "_id": {
+    "$oid": "626fbb583113a15fd44dba95"
+  },
+  "Nombre": "Laboratorio",
+  "Horas": 150
+},{
+  "_id": {
+    "$oid": "626fbb7a3113a15fd44dba96"
+  },
+  "Nombre": "Medicación",
+  "Horas": 200
+},{
+  "_id": {
+    "$oid": "626fbb923113a15fd44dba97"
+  },
+  "Nombre": "Distribución",
+  "Horas": 50
+}]

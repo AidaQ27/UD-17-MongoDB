@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "626fbbf53113a15fd44dba98"
+  },
+  "Nombre": "Jesus Jimenez",
+  "Proyecto": "Laboratorio"
+},{
+  "_id": {
+    "$oid": "626fbc1a3113a15fd44dba99"
+  },
+  "Nombre": "Pedro Rodriguez",
+  "Proyecto": "Marketing"
+},{
+  "_id": {
+    "$oid": "62710f367dbcd37a24d47800"
+  },
+  "Nombre": "Alicia Garcia",
+  "Proyecto": "Distribución"
+},{
+  "_id": {
+    "$oid": "62710f5f7dbcd37a24d47801"
+  },
+  "Nombre": "Maria Trigueros",
+  "Proyecto": "Medicación"
+}]
